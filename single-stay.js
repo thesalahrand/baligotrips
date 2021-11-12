@@ -5,7 +5,7 @@ setInterval(() => {
     if(document.querySelector(`#${prevSiblingSpanId}`).nextElementSibling && document.querySelector(`#${hiddenInpIds[idx]}`).nextElementSibling) {
       const actualInp = document.querySelector(`#${prevSiblingSpanId}`).nextElementSibling;
       const hiddenInp = document.querySelector(`#${hiddenInpIds[idx]}`).nextElementSibling;
-      actualInp.value = Math.ceil(actualInp.value);
+      // actualInp.value = Math.ceil(actualInp.value);
       hiddenInp.value = actualInp.value;
     }
   });
