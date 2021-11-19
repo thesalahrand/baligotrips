@@ -38,7 +38,7 @@ function roundAndSeparate() {
   
     var result4 = loader.engine.document.getElementById(99391060).getProperty('value.value');
     var roundedValue4 = Math.ceil(result4); //- rounding to next integer
-  loader.engine.document.getElementById(99391060).setValue(({"value": roundedValue4.toLocaleString('en-US')})); //- adds thousand separators
+  loader.engine.document.getElementById(99482267).setValue(({"value": roundedValue4.toLocaleString('en-US')})); //- adds thousand separators
   
     var result5 = loader.engine.document.getElementById(99390976).getProperty('value.value');
     var roundedValue5 = Math.ceil(result5); //- rounding to next integer
@@ -50,5 +50,4 @@ function roundAndSeparate() {
     
   };
   
-  window.onclick = roundAndSeparate;
-  
+  window.onclick = roundAndSeparate;  
