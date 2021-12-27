@@ -63,6 +63,14 @@ function roundAndSeparate() {
   var result9 = loader.engine.document.getElementById(99934649).getProperty('value.value');
     var roundedValue9 = Math.ceil(result9); //- rounding to next integer
   loader.engine.document.getElementById(99934650).setValue(({"value": roundedValue9.toLocaleString('en-US')})); //- adds thousand separators
+
+  var result10 = loader.engine.document.getElementById(99958598).getProperty('value.value');
+    var roundedValue10 = Math.ceil(result10); //- rounding to next integer
+  loader.engine.document.getElementById(99958603).setValue(({"value": roundedValue10.toLocaleString('en-US')})); //- adds thousand separators
+
+  var result11 = loader.engine.document.getElementById(99958599).getProperty('value.value');
+    var roundedValue11 = Math.ceil(result11); //- rounding to next integer
+  loader.engine.document.getElementById(99958600).setValue(({"value": roundedValue11.toLocaleString('en-US')})); //- adds thousand separators
     
   };
   
