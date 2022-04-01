@@ -26,7 +26,7 @@ function roundAndSeparate() {
   
     var result1 = loader.engine.document.getElementById(101181131).getProperty('value.value');
     var roundedValue1 = Math.ceil(result1); //- rounding to next integer
-  loader.engine.document.getElementById(101181131).setValue(({"value": roundedValue1.toLocaleString('en-US')})); //- adds thousand separators
+  loader.engine.document.getElementById(101181132).setValue(({"value": roundedValue1.toLocaleString('en-US')})); //- adds thousand separators
 
   var result1 = loader.engine.document.getElementById(101181134).getProperty('value.value');
     var roundedValue1 = Math.ceil(result1); //- rounding to next integer
