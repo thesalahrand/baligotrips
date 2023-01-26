@@ -70,4 +70,4 @@ function roundAndSeparate() {
 
   };
 
-  window.onchange = roundAndSeparate; 
+  window.onclick = roundAndSeparate; 
